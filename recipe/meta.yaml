@@ -1,4 +1,4 @@
-{% set version = '0.0.1' %}
+{% set version = "0.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mikropml_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mikropml/mikropml_{{ version }}.tar.gz
-  sha256: ecdbe55100ffd2d777d3421dc69b4fe5c4c0eae8c9d0f47cebbce54bc6b956df
+  sha256: cd9e9091a8189d30e9108c9110447b12ced7a215c492bde6b84bf00ce663fe61
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
@@ -54,16 +54,12 @@ test:
 about:
   home: http://www.schlosslab.org/mikropml/, https://github.com/SchlossLab/mikropml
   license: MIT
-  summary: "User-Friendly R Package for Supervised Machine Learning Pipelines"
-  description: "An interface to build machine learning models for classification and regression problems.
-    'mikropml' implements the ML pipeline described by Topçuoğlu et al. (2020)
-    <doi:10.1128/mBio.00434-20> with reasonable default options for data preprocessing,
-    hyperparameter tuning, cross-validation, testing, model evaluation, and interpretation
-    steps. See the website <http://www.schlosslab.org/mikropml/> for more information,
-    documentation, and examples."
+  summary: User-Friendly R Package for Supervised Machine Learning Pipelines
+  description: An interface to build machine learning models for classification and regression problems. 'mikropml' implements the ML pipeline described by Topçuoğlu et al. (2020) <doi:10.1128/mBio.00434-20> with reasonable default options for data preprocessing, hyperparameter tuning, cross-validation, testing, model evaluation,
+    and interpretation steps. See the website <http://www.schlosslab.org/mikropml/> for more information, documentation, and examples.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
   doc_url: http://www.schlosslab.org/mikropml/
   dev_url: https://github.com/SchlossLab/mikropml/
