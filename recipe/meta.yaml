@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mikropml_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mikropml/mikropml_{{ version }}.tar.gz
-  sha256: 0776f650b7fb502b10e0d3295aa76d7250d4523ed10c3b814203bcbbc049b907
+  sha256: 559c4559673e00f4f3f727932f1779de45c8c37bd178755f9424338cde70cc4e
 
 build:
   merge_build_host: true  # [win]
