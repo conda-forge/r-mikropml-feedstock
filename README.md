@@ -1,11 +1,11 @@
-About r-mikropml
-================
+About r-mikropml-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mikropml-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.schlosslab.org/mikropml/, https://github.com/SchlossLab/mikropml
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mikropml-feedstock/blob/main/LICENSE.txt)
 
 Summary: User-Friendly R Package for Supervised Machine Learning Pipelines
 
