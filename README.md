@@ -3,15 +3,13 @@ About r-mikropml-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mikropml-feedstock/blob/main/LICENSE.txt)
 
-Home: http://www.schlosslab.org/mikropml/, https://github.com/SchlossLab/mikropml
+Home: http://www.schlosslab.org/mikropml/
 
 Package license: MIT
 
 Summary: User-Friendly R Package for Supervised Machine Learning Pipelines
 
-Development: https://github.com/SchlossLab/mikropml/
-
-Documentation: http://www.schlosslab.org/mikropml/
+Development: https://github.com/SchlossLab/mikropml
 
 An interface to build machine learning models for classification and regression problems. 'mikropml' implements the ML pipeline described by Topçuoğlu et al. (2020) <doi:10.1128/mBio.00434-20> with reasonable default options for data preprocessing, hyperparameter tuning, cross-validation, testing, model evaluation, and interpretation steps. See the website <http://www.schlosslab.org/mikropml/> for more information, documentation, and examples.
 
