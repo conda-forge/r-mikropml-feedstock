@@ -32,6 +32,10 @@ requirements:
     - r-randomforest
     - r-rlang
     - r-xgboost
+    - bioconductor-s4vectors
+    - bioconductor-singlecellexperiment
+    - bioconductor-summarizedexperiment
+    - bioconductor-treesummarizedexperiment
   run:
     - r-base
     - r-mlmetrics
@@ -43,6 +47,10 @@ requirements:
     - r-randomforest
     - r-rlang
     - r-xgboost
+    - bioconductor-s4vectors
+    - bioconductor-singlecellexperiment
+    - bioconductor-summarizedexperiment
+    - bioconductor-treesummarizedexperiment
 
 test:
   commands:
